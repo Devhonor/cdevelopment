@@ -18,3 +18,7 @@
 
 2.执行部署
 
+```
+[root@server opt]# cd cdevelopment/bin/
+
+```
