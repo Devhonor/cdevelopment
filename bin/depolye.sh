@@ -29,13 +29,13 @@ function copy_files(){
     print_log "Output result:"
     gcc_version=$(gcc --version | head -1 | awk '{print $3}')
     if [[ "${gcc_version}" == "14.2.0" ]];then
-        print_sub_log "gcc version is latest:${gcc_version}"
+        print_sub_log "gcc version is latest: ${gcc_version}"
     else
         print_error_log "Please check /usr/local/bin/gcc program"
     fi 
     gpp_version=$(g++ --version | head -1 | awk '{print $3}')
     if [[ "${gpp_version}" == "14.2.0" ]];then
-        print_sub_log "g++ version is latest:${gpp_version}"
+        print_sub_log "g++ version is latest: ${gpp_version}"
     else
         print_error_log "Please check /usr/local/bin/g++ program"
     fi 
@@ -43,7 +43,7 @@ function copy_files(){
     cmake_version=$(cmake --version | head -1 | awk '{print $3}')
 
     if [[ "${cmake_version}" == "3.31.4" ]];then
-        print_sub_log "cmake version is latest:${cmake_version}"
+        print_sub_log "cmake version is latest: ${cmake_version}"
     else
         print_error_log "Please check /usr/local/bin/cmake program"
     fi
@@ -51,7 +51,7 @@ function copy_files(){
     make_version=$(make --version | head -1 | awk '{print $3}')
 
     if [[ "${make_version}" == "4.4" ]];then
-        print_sub_log "cmake version is latest:${make_version}"
+        print_sub_log "cmake version is latest: ${make_version}"
     else
         print_error_log "Please check /usr/local/bin/make program"
     fi
