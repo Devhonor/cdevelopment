@@ -19,10 +19,10 @@ package=${TOPLEVEL_DIR}/packages
 
 function copy_files(){
     print_log "Uncompress package to /usr/ directory"
-    cd ${package} && cp -fnr ${package}/* /usr/local/
+    cd ${package} && tar -zxf ${package}/cdeve.tar.gz -C /usr/
     print_log "Adding LD_LIBRARY_PATH to .bashrc"
     sed -i "/LD_LIBRARY_PATH/d" ~/.bashrc
-    echo "export LD_LIBRARY_PATH=/usr/local/lib64:\${LD_LIBRARY_PATH}" >> ~/.bashrc
+    echo "export LD_LIBRARY_PATH=/usr/local/lib64:/usr/local/lib:\${LD_LIBRARY_PATH}" >> ~/.bashrc
     print_log "Reloading environment information"
     . ~/.bashrc
 
