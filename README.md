@@ -11,11 +11,9 @@
 #使用步骤(using steps) </br>
 
 1.下载包到任意目录
-受限于网络，推荐使用 gitee 进行下载
-```
-[root@server opt]# git clone https://gitee.com/developerhonor/cdevelopment.git
+下载包到任意目录
 
-```
+
 
 </br>
 
