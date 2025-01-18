@@ -51,7 +51,7 @@ function copy_files(){
     make_version=$(make --version | head -1 | awk '{print $3}')
 
     if [[ "${make_version}" == "4.4" ]];then
-        print_sub_log "cmake version is latest: ${make_version}"
+        print_sub_log "make version is latest: ${make_version}"
     else
         print_error_log "Please check /usr/local/bin/make program"
     fi
