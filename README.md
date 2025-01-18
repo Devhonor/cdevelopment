@@ -25,7 +25,7 @@
 > 将百度网盘下载的包移动到 cdevelopment/packages 目录
 
 
-3.执行部署
+3.执行部署</br>
 
 ```
 [root@server opt]# cd cdevelopment/bin/
@@ -42,7 +42,7 @@
 
 </br>
 
-4.验证编译器
+4.验证编译器</br>
 
 ```
 [root@server ~]# mkdir -p cdeve/
