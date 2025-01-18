@@ -20,7 +20,7 @@
 从gitee或者github平台克隆包到任意目录
 
 
-2. 指定编译器包的路径</br>
+2.指定编译器包的路径</br>
 
 > 将百度网盘下载的包移动到 cdevelopment/packages 目录
 
