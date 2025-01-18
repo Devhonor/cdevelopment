@@ -1,7 +1,13 @@
 ***
 #先决条件(requirements)
 
-无(None)
+-  从百度网盘下载编译完成的编译器包</br>
+-  Please download compiler package from baidu netdisk </br>
+
+通过网盘分享的文件：cdeve.tar.gz
+链接: https://pan.baidu.com/s/1hJcBMssIMVJsPvyZDQlEZg?pwd=wqyg 提取码: wqyg 
+--来自百度网盘超级会员v10的分享
+
 
 ***
 #使用说明(using manual)
@@ -17,7 +23,11 @@
 
 </br>
 
-2.执行部署
+2. 指定编译器包的路径</br>
+> 将百度网盘下载的包移动到 cdevelopment/packages 目录
+
+
+3.执行部署
 
 ```
 [root@server opt]# cd cdevelopment/bin/
@@ -34,7 +44,7 @@
 
 </br>
 
-3.验证编译器
+4.验证编译器
 
 ```
 [root@server ~]# mkdir -p cdeve/
